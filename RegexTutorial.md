@@ -30,8 +30,8 @@ The Anchor characters are defined as **^** and **$**.
 
 The **^** anchor signifies a string that begins with the characters immediately following it in one of two formats:
 
-    -  Exact string matching such as **^Bob** would match strings with "Bob" or "Bob likes pie", but "bob" and "bob likes pie" do not.
-    -  A range of possible options displayed using bracket expressions which we'll go over further down the line.
+-  Exact string matching such as **^Bob** would match strings with "Bob" or "Bob likes pie", but "bob" and "bob likes pie" do not.
+-  A range of possible options displayed using bracket expressions which we'll go over further down the line.
 
 The **$** anchor is used to signify a string the Ends with the characters that immediately preceed it, this can be in either format which applies to the **^** operator.
 
