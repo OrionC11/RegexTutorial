@@ -41,13 +41,13 @@ Quantifiers are one of the two requirements of regex and determines the number o
 
 Quantifiers are greedy meaning they match as many occurances of the pattern as possible. Quantifiers include the following operators:
 
-    -  -- Matches zero or more times
-    -  +-- Matches the patern one or more times
-    -  ?-- Matches zero or one time
-    -  {}-- Curly brackets provide three different ways to limit a match:
-        -  { n }-- Matches exactly the number of times specified by n
-        -  { n, }-- Matches at least the number of times specified by n
-        -  { n, x }-- Matches the pattern from a minimum number of times specified by n and a maximium number of times specified by x
+- -- Matches zero or more times
+- +-- Matches the patern one or more times
+- ?-- Matches zero or one time
+- {}-- Curly brackets provide three different ways to limit a match:
+  - { n }-- Matches exactly the number of times specified by n
+  - { n, }-- Matches at least the number of times specified by n
+  - { n, x }-- Matches the pattern from a minimum number of times specified by n and a maximium number of times specified by x
 
 Any quantifier is able to be made **lazy** through the method of adding the **?** operator after it, a lazy quantifier will match as few occurances as possible to it.
 
@@ -77,9 +77,9 @@ Most often you will see it represented with a hyphen between the letters and num
 
 Lets break down the regex statement **[a-z0-9_\.-]** a little more:
 
-    -  [a-z]-- This indicates the string can only contain lower case letters between a and z and this only includes letters which are Lowercase
-    -  [0-9]-- This indicates all numbers between 0 and 9 are included
-    -  [_\.-]-- This indicates that the string is allowed to contain underscores _, backslashes \, periods ., and hyphens -, these are known as special characters.  Special characters include anything which is nonalphanumerical such as punctuations and symbols
+- [a-z]-- This indicates the string can only contain lower case letters between a and z and this only includes letters which are Lowercase
+- [0-9]-- This indicates all numbers between 0 and 9 are included
+- [_\.-]-- This indicates that the string is allowed to contain underscores \_, backslashes \, periods ., and hyphens -, these are known as special characters. Special characters include anything which is nonalphanumerical such as punctuations and symbols
 
 ### Character Classes
 
